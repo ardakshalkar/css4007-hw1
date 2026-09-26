@@ -14,17 +14,17 @@ of guessing at it.**
 
 ## 0. How this works
 
-This repository is a **template**. Do not clone it directly and do not open pull
-requests against it.
+You work in **your own fork** of this repository. Do not open pull requests
+against it.
 
-1. **Use this template → Create a new repository.** Name it `hw1-<your-github-username>`.
-   Keep it **private**; add the instructor as a collaborator.
-2. Clone *your copy* and work there.
+1. **Fork it** (the **Fork** button, top right). Keep your fork **public**, so
+   the instructor can read it without being added to anything.
+2. Clone *your fork* and work there.
 3. Implement the three sublabs below.
 4. Fill in `SUBMISSION.md`. **Everything is graded from that file** — your
    tables, your transcripts, your written answers. Code that runs but produces
    no numbers in `SUBMISSION.md` earns nothing.
-5. Push, and submit your repository link on the LMS before the deadline.
+5. Push to your fork, and submit your fork's link on the LMS before the deadline.
 
 > There is no autograder. A human reads your `SUBMISSION.md` against your code.
 > That cuts both ways: nothing is checking your work as you go, so run things
@@ -48,7 +48,9 @@ You need two accounts. Both have a free or near-free path:
 
 Sublab Harder needs no key at all — it runs the tokenizer on your own machine.
 
-**`.env` is in `.gitignore`. Never commit a key.** A key pushed to GitHub is a
+**`.env` is in `.gitignore`. Never commit a key.** Your fork is public, so a
+committed key is readable by anyone, and bots scan GitHub for them within
+minutes. A key pushed to GitHub is a
 key someone else is already using — if it happens, revoke it immediately and say
 so in `SUBMISSION.md`. Disclosure costs you nothing; a silent leaked key is an
 integrity issue.
@@ -270,7 +272,7 @@ token strings (0.75) + the written analysis, especially question 2 (0.75).
 - [ ] `sublab_hard/tokenizer_forensics.py` implemented, all three measurements run
 - [ ] `SUBMISSION.md` complete, with every table and every written answer
 - [ ] `.env` **not** committed (`git log --all -- .env` returns nothing)
-- [ ] Repository link submitted on the LMS
+- [ ] Your fork is public, and its link is submitted on the LMS
 
 ## 6. Academic integrity
 
